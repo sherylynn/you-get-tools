@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\youget]
+@="URL:youget Protocol Handler"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\youget\shell]
+
+[HKEY_CLASSES_ROOT\youget\shell\open]
+
+[HKEY_CLASSES_ROOT\youget\shell\open\command]
+@="C:\\Users\\lynn\\you-get-tools\\you-get-tools.bat \"%1\""

@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\youget]
+@="URL:youget Protocol Handler"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\youget\shell]
+
+[HKEY_CLASSES_ROOT\youget\shell\open]
+
+[HKEY_CLASSES_ROOT\youget\shell\open\command]
+@="C:\\Users\\lynn\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Extensions\\iealjklbjaieahkhjemfjfggdcghmhad\\1.0_0\\you-get.bat \"%1\""

@@ -1,0 +1,1 @@
+pip3 install https://github.com/rosynirvana/you-get/archive/master.zip
