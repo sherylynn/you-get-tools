@@ -1,0 +1,10 @@
+# server
+node_modules/
+pouch__all_dbs__/
+_replicator/
+_users/
+shit*
+log.txt
+
+# vscode
+.vscode
