@@ -8,3 +8,6 @@ log.txt
 
 # vscode
 .vscode
+
+# egg
+logs/

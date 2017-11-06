@@ -1,0 +1,32 @@
+{
+  "name": "you-get-tools",
+  "version": "0.0.1",
+  "description": "some tools for you-get",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherylynn/you-get-tools.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "you-get",
+    "bat",
+    "cmd"
+  ],
+  "author": "sherylynn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sherylynn/you-get-tools/issues"
+  },
+  "homepage": "https://github.com/sherylynn/you-get-tools#readme",
+  "dependencies": {
+    "egg": "^1.10.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.5"
+  }
+}
