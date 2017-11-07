@@ -1,9 +1,10 @@
-@echo off
+﻿@echo off
 cls
 setlocal EnableDelayedExpansion
 
 rem echo dev
-set env=C:\Users\lynn\Downloads\you-get
+
+set env=%~dp0
 set path=%path%;%env%
 set path=%path%;%env%\deps\ffmpeg\bin
 set path=%path%;%env%\deps\rtmpdump

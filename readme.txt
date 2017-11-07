@@ -1,3 +1,7 @@
-1: you-get.exe -x 127.0.0.1:1080 -i https://www.youtube.com/watch?v=fiyc3E5qI94
-2: you-get.exe -x 127.0.0.1:1080 --itag=137 https://www.youtube.com/watch?v=fiyc3E5qI94
-打包不会把exe打包进去
+安装you-get 后
+运行install安装本工具
+
+浏览器添加一个书签，书签内容为bookmarklet.js的内容
+默认代理走127.0.0.1的socks 1080口
+点击书签就自动呼唤下载
+
