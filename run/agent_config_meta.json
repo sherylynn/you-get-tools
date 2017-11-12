@@ -1,232 +1,232 @@
 {
-  "keys": "C:\\Users\\lynn\\you-get-tools\\config\\config.default.js",
+  "keys": "Z:\\lynn\\you-get-tools\\config\\config.default.js",
   "onerror": {
-    "errorPageUrl": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "Z:\\lynn\\you-get-tools\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "Z:\\lynn\\you-get-tools\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "Z:\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "Z:\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "Z:\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "Z:\\lynn\\you-get-tools\\node_modules\\egg-session\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "Z:\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "Z:\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "Z:\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "Z:\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "Z:\\lynn\\you-get-tools\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "Z:\\lynn\\you-get-tools\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "Z:\\lynn\\you-get-tools\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "Z:\\lynn\\you-get-tools\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "Z:\\lynn\\you-get-tools\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "Z:\\lynn\\you-get-tools\\node_modules\\egg-security\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "Z:\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "Z:\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "Z:\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "Z:\\lynn\\you-get-tools\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "Z:\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "Z:\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "Z:\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "Z:\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "Z:\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "Z:\\lynn\\you-get-tools\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "Z:\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "Z:\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "Z:\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "Z:\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "Z:\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "Z:\\lynn\\you-get-tools\\node_modules\\egg-static\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "Z:\\lynn\\you-get-tools\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "Z:\\lynn\\you-get-tools\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "Z:\\lynn\\you-get-tools\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "view": {
-    "root": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "Z:\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "Z:\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "Z:\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "Z:\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "Z:\\lynn\\you-get-tools\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "name": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "env": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "name": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "version": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "description": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "name": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "version": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "description": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "test": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "dev": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "test": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "dev": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "url": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "type": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "url": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     },
-    "keywords": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "author": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "license": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "keywords": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "author": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "license": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
     "bugs": {
-      "url": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "url": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     },
-    "homepage": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "homepage": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "egg": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "strict": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "enable": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "strict": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "depth": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "depth": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "env": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "level": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "dir": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "env": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "level": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "port": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+      "path": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "port": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "C:\\Users\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
+    "responseTimeout": "Z:\\lynn\\you-get-tools\\node_modules\\egg\\config\\config.default.js"
   }
 }
