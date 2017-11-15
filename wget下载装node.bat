@@ -8,6 +8,7 @@ setlocal EnableDelayedExpansion
 set VSCODE_VERSION=1.18.0
 set NODE_VERSION=9.1.0
 set GIT_VERSION=2.15.0
+set PYTHON2_VERSION=2.7.14
 echo 判断是否64位系统
   if exist "%windir%\SysWOW64" (
     echo 系统为64位 set中不加冒号会把括号吃掉
@@ -16,6 +17,7 @@ echo 判断是否64位系统
     set bit=64
     set xbit=64
     set vsbit=x64
+    set pybit=.amd64
   )
   if NOT exist "%windir%\SysWOW64" (
     echo 系统是32位
@@ -24,6 +26,7 @@ echo 判断是否64位系统
     set bit=32
     set xbit=86
     set vsbit=ia32
+    set pybit=
   )
 echo 1
 if exist "%windir%\SysWOW64" (
@@ -44,6 +47,11 @@ echo 2
 IF NOT EXIST "%ProgramFiles%\nodejs\node.exe" (
   start /WAIT wget http://nodejs.org/dist/v!NODE_VERSION!/node-v!NODE_VERSION!-x!xbit!.msi
   msiexec /i node-v!NODE_VERSION!-x!xbit!.msi /qn REBOOT=Suppress
+)
+echo 5
+IF NOT EXIST "C:\Python27\python.exe" (
+  start /WAIT wget https://www.python.org/ftp/python/!PYTHON2_VERSION!/python-!PYTHON2_VERSION!!pybit!.msi
+  msiexec /i python-!PYTHON2_VERSION!!pybit!.msi /qn REBOOT=Suppress
 )
 echo 6
 IF NOT EXIST "%ProgramFiles%\Git\git-bash.exe" (
