@@ -12,6 +12,7 @@ set PYTHON2_VERSION=2.7.14
 
 
 set EXE=X:
+set DATA=Z:
 set STORE=E:
 set EXE_HOME=!EXE!\TDDownload\exe
 set STUDIO_HOME=!DATA!\android-studio
@@ -94,6 +95,45 @@ setx ANDROID_HOME !DATA!\Android\Sdk
 setx JAVA_HOME !STUDIO_HOME!\jre
 setx CLASSPATH .;!JAVA_HOME!\lib\tools.jar;!JAVA_HOME!\lib\dt.jar;!JAVA_HOME!\jre\lib\rt.jar
 setx PATH "!PYTHON_HOME!\Scripts;!PYTHON_HOME!;%USERPROFILE%\Anaconda2;%USERPROFILE%\Anaconda2\Scripts;%USERPROFILE%\Anaconda2\Library\bin;!ANDROID_HOME!\tools;!ANDROID_HOME!\platform-tools;!STUDIO_HOME!\bin;!JAVA_HOME!\bin;!GIT_HOME!\cmd;!GIT_HOME!\mingw64\bin;!GIT_HOME!\usr\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%USERPROFILE%\AppData\Local\atom\bin;%APPDATA%\npm;%USERPROFILE%\node-global;%APPDATA%\Local\Yarn\.bin;D:\Bak\SS-KCPortable"
+
+
+echo 因为 delims用空格分隔 所以如果是带空格的文件夹会被直接切割掉 tokens 代表获取的第几个切割后的块,如果目录带空格,切割后影响很大
+echo 解决了以往目录名中有空格的问题，默认兼容2个空格 3-6可以改，改了后还要改%%b %%c %%d 相应增加间的空格,利用windows新建文件夹不理睬后面的空格的功能来搞
+
+
+for /f "tokens=3-6 skip=7 delims= " %%a in ('dir !DATA!\lynn\') do (
+  if not "%%a"=="<DIR>" if not "%%b"=="字节" if not "%%b"=="可用字节" (
+    del "%USERPROFILE%\%%b %%c %%d" /s /q
+    mklink "%USERPROFILE%\%%b %%c %%d" "!DATA!\lynn\%%b %%c %%d"
+  )
+  if "%%a"=="<DIR>" if not "%%b"== "Documents" if not "%%b"=="Downloads" if not "%%b"=="AppData" (
+    rmdir /s /q "%USERPROFILE%\%%b %%c %%d"
+    rmdir /s /q "%USERPROFILE%\%%b"
+    mklink /d "%USERPROFILE%\%%b %%c %%d" "!DATA!\lynn\%%b %%c %%d"
+  )
+)
+
+echo 由于全部是目录,而且考虑到会有空格,本想用 for/d 来操作 但是这个方法获取的是全部路径,不方便删除c盘下的原文件
+for /f "delims=" %%b in ('dir /b "!EXE!\Program Files (x86)\*"') do (
+    rmdir "!ProgramFiles_x86!\%%b" /s /q
+    mklink /d "!ProgramFiles_x86!\%%b" "!EXE!\Program Files (x86)\%%b"
+)
+
+echo 一部分程序数据
+for /f "delims=" %%b in ('dir /b "!EXE!\Local\*"') do (
+    rmdir "%AppData%\..\Local\%%b" /s /q
+    mklink /d "%AppData%\..\Local\%%b" "!EXE!\Local\%%b"
+)
+
+del "%USERPROFILE%\CA.crt" /s /q
+mklink "%USERPROFILE%\CA.crt" "!DATA!\lynn\XX-Net\data\gae_proxy\CA.crt"
+
+rmdir "%USERPROFILE%\Documents\NetSarang" /s /q
+mklink /d "%USERPROFILE%\Documents\NetSarang" "%USERPROFILE%\NetSarang"
+
+del "%APPDATA%\Code\User\settings.json" /s /q
+mklink "%APPDATA%\Code\User\settings.json" "!DATA!\lynn\settings.json"
+
 
 echo nodejs 全局包设定
 pause
