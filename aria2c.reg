@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\aria2c]
+@="URL:aria2c Protocol Handler"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\aria2c\shell]
+
+[HKEY_CLASSES_ROOT\aria2c\shell\open]
+
+[HKEY_CLASSES_ROOT\aria2c\shell\open\command]
+@="C:\\Users\\lynn\\Downloads\\aria2c\\aria2c.bat \"%1\""
