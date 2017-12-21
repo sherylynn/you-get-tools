@@ -1,7 +1,8 @@
 @echo off
 cls
 setlocal EnableDelayedExpansion
-set Url=http://picsum.photos/1000
+set Size=1000
+set Url=http://picsum.photos/%Size%/?random
 set Save=%USERPROFILE%\Pictures
 
 for %%a in ("%Url%") do set "FileName=%%~nxa"
@@ -20,7 +21,21 @@ echo   ado.Open
 echo   ado.Write http.responseBody
 echo   ado.SaveToFile target
 echo   ado.Close
-echo End Sub)>DownloadFile.vbs
+echo End Sub)>%Save%\DownloadFile.vbs
 
-DownloadFile.vbs "%Url%" "%Save%\%FileName%.jpg"
-del DownloadFile.vbs
+
+set id=%random%
+
+:: del %Save%\%FileName%.jpg
+%Save%\DownloadFile.vbs "%Url%" "%Save%\%id%.jpg"
+:: del %Save%\1000.jpg
+:: %Save%\DownloadFile.vbs "%Url%" "%Save%\1000.jpg"
+del %Save%\DownloadFile.vbs
+:: set regadd=reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System"
+set regadd=reg add "HKCU\Control Panel\Desktop"
+%regadd% /v TileWallpaper /d "0" /f
+%regadd% /v Wallpaper /d "%Save%\%id%.jpg" /f
+%regadd% /v WallpaperStyle /d "10" /f
+
+RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
+:: 微软注册表功能限制，没法直接生效
