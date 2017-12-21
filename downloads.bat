@@ -39,3 +39,5 @@ set regadd=reg add "HKCU\Control Panel\Desktop"
 
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 :: 微软注册表功能限制，没法直接生效
+:: RUNDLL32.EXE user32.dll, SystemParametersInfo(20,0,"C:\Users\lynn\Pictures\12771,jpg",0x2)
+:: rundll32 并不能call所有的dll,只有早期的有，后期的很多都不是为了rundll设计的，官网有设置墙纸的api，有powershell的，但是和rundll已经关联不多了
