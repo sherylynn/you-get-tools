@@ -9,7 +9,7 @@ set VSCODE_VERSION=1.18.0
 set NODE_VERSION=9.1.0
 set GIT_VERSION=2.15.0
 set PYTHON2_VERSION=2.7.14
-
+set GO_VERSION=1.10
 
 set EXE=X:
 set DATA=Z:
@@ -26,6 +26,7 @@ echo 判断是否64位系统
     set Framework64=Framework64
     set bit=64
     set xbit=64
+		set gbit=amd64
     set vsbit=x64
     set pybit=.amd64
   )
@@ -35,6 +36,7 @@ echo 判断是否64位系统
     set Framework64=Framework
     set bit=32
     set xbit=86
+		set gbit=386
     set vsbit=ia32
     set pybit=
   )
@@ -78,7 +80,12 @@ IF NOT EXIST "%ProgramFiles%\Git\git-bash.exe" (
   start /WAIT Git-!GIT_VERSION!-!bit!-bit.exe /sp- /silent /norestart
   echo 安装完毕 git
 )
-
+echo 7 https://dl.google.com/go/go1.10.windows-amd64.zip
+IF NOT EXIST "C:\Go\bin\go.exe" (
+  start /WAIT wget https://dl.google.com/go/go!GO_VERSION!.windows-!gbit!.msi
+  start /WAIT go!GO_VERSION!.windows-!gbit!.msi /sp- /silent /norestart
+  echo 安装完毕 go
+)
 echo 开始设置开发环境 和 环境变量
 pause
 IF EXIST "!STUDIO_HOME!\jre\bin\java.exe" (
