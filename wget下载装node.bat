@@ -108,7 +108,7 @@ setx PATH "!DATA!vim;!PYTHON_HOME!\Scripts;!PYTHON_HOME!;%USERPROFILE%\Anaconda2
 echo 因为 delims用空格分隔 所以如果是带空格的文件夹会被直接切割掉 tokens 代表获取的第几个切割后的块,如果目录带空格,切割后影响很大
 echo 解决了以往目录名中有空格的问题，默认兼容2个空格 3-6可以改，改了后还要改%%b %%c %%d 相应增加间的空格,利用windows新建文件夹不理睬后面的空格的功能来搞
 
-
+！！！！！！！！！！！！！！！！！！代码有问题 循环递归一直删数据，暂停使用！！！！！！！！！！！！！！！
 for /f "tokens=3-6 skip=7 delims= " %%a in ('dir !DATA!\lynn\') do (
   if not "%%a"=="<DIR>" if not "%%b"=="字节" if not "%%b"=="可用字节" (
     del "%USERPROFILE%\%%b %%c %%d" /s /q
