@@ -102,7 +102,7 @@ set GOPATH=%USERPROFILE%\go
 setx ANDROID_HOME !DATA!\Android\Sdk
 setx JAVA_HOME !STUDIO_HOME!\jre
 setx CLASSPATH .;!JAVA_HOME!\lib\tools.jar;!JAVA_HOME!\lib\dt.jar;!JAVA_HOME!\jre\lib\rt.jar
-setx PATH "!DATA!\Neovim\bin;!DATA!\vim;!PYTHON_HOME!\Scripts;!PYTHON_HOME!;%USERPROFILE%\Anaconda2;%USERPROFILE%\Anaconda2\Scripts;%USERPROFILE%\Anaconda2\Library\bin;!ANDROID_HOME!\tools;!ANDROID_HOME!\platform-tools;!STUDIO_HOME!\bin;!JAVA_HOME!\bin;!GIT_HOME!\cmd;!GIT_HOME!\mingw64\bin;!GIT_HOME!\usr\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%USERPROFILE%\AppData\Local\atom\bin;%APPDATA%\npm;%USERPROFILE%\node-global;%APPDATA%\Local\Yarn\.bin;D:\Bak\SS-KCPortable"
+setx PATH "!GOPATH!\bin;!DATA!\Neovim\bin;!DATA!\vim;!PYTHON_HOME!\Scripts;!PYTHON_HOME!;%USERPROFILE%\Anaconda2;%USERPROFILE%\Anaconda2\Scripts;%USERPROFILE%\Anaconda2\Library\bin;!ANDROID_HOME!\tools;!ANDROID_HOME!\platform-tools;!STUDIO_HOME!\bin;!JAVA_HOME!\bin;!GIT_HOME!\cmd;!GIT_HOME!\mingw64\bin;!GIT_HOME!\usr\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;%USERPROFILE%\AppData\Local\atom\bin;%APPDATA%\npm;%USERPROFILE%\node-global;%APPDATA%\Local\Yarn\.bin;D:\Bak\SS-KCPortable"
 
 
 echo 因为 delims用空格分隔 所以如果是带空格的文件夹会被直接切割掉 tokens 代表获取的第几个切割后的块,如果目录带空格,切割后影响很大
