@@ -5,6 +5,7 @@ cd /d "%~dp0"
 cls
 setlocal EnableDelayedExpansion
 rem %~fs0是执行文件 %~dp0是文件夹
+Reg delete HKCR\youget /f
 Reg add HKCR\youget /ve /t REG_SZ /d "URL:youget Protocol Handler" /f
 Reg add HKCR\youget /v "URL Protocol" /t REG_SZ /f
 Reg add HKCR\youget\shell\open\command /ve  /t REG_SZ /d "%~dp0you-get-tools.bat \"%%1\"" /f
